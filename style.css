@@ -1,0 +1,52 @@
+/* Id Selector */
+#italic-text {
+  font-style: italic;
+}
+
+/* Class Selector */
+.body-border {
+  font-size: 1.5rem;
+}
+.link-color {
+  color: crimson;
+}
+
+/* Type Selector */
+div {
+  color: red;
+}
+p {
+  color: cornflowerblue;
+}
+
+/* An HTML element with multiple classes */
+.bg-color {
+  background-color: darkseagreen;
+}
+.bg-padding {
+  padding: 20px;
+}
+
+/* At least two classes with shared rules, grouped together */
+.li-style,
+.h2-style {
+  font-family: cursive;
+}
+
+/* Chained selectors */
+.body-border,
+img {
+  border: solid 2px;
+  padding: 2rem;
+}
+
+/* Descendant Combinators */
+ol li {
+  background-color: salmon;
+  padding: 20px;
+}
+
+/* CSS Inheritance  inheriting red color from parent div container */
+p {
+  all: inherit;
+}
